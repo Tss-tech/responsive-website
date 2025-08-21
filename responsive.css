@@ -2,9 +2,49 @@
 
   body{font-family: 'Times New Roman', Times, serif 'Times New Roman', Times, serif; }
 
+  body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
 *{ padding: 0;
  margin: 0;
 box-sizing: border-box;}
+
+/* nav bar cooding start here */
+
+
+nav div{margin-left: 2px;}
+
+nav div span{color: white;
+font-size: large;
+
+margin-left: 10px;}
+
+nav{display: flex;
+  padding: 14px;
+justify-content: space-between;
+background-color:#1C2833}
+
+nav ul{
+  display: flex;
+  margin: 0px 50px;
+  align-items: center;}
+
+  nav ul li{list-style: none;}
+
+
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  padding: 15px 30px;
+transition: 0.75s;}
+
+ nav ul li:hover a{
+  background-color:
+   rgba(197, 194, 27, 0.715);}   
+
+
+
+
+
 
 
 
