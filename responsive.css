@@ -81,11 +81,17 @@ nav ul li{
 nav ul li a:hover{
   background: none;
   color: red;
+} }
+
+/* header area */
+
+
+header{background-image: url("image/apple.jpeg");
+height: 92vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
-
-
-    
-   }
 
 
 
